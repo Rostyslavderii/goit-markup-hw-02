@@ -111,9 +111,15 @@ main {
     background: #F5F4FA;
     border-radius: 4px;
     padding: 6px 22px;
-    margin: 94px 8px 50px 8px;
+    margin: 94px 8px 0px 8px;
     cursor:pointer;
     transition: all 0.3s ease;
+    border: 0;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
 }
 
 .project-selector-button:hover {
@@ -166,6 +172,7 @@ h2 {
     width: 370px;
     height: 294px;
     border-radius: 0px;
+    transition: all 0.3s ease;
 
 }
 

@@ -408,6 +408,9 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     font-weight: 400;
 }
 
+.adress-item:not(:first-child)  .adress-link{
+    color: rgba(255, 255, 255, 0.6);
+}
 
 .adress-link {
     text-decoration: none;

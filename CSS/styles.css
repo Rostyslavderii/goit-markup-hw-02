@@ -225,6 +225,11 @@ h2 {
     letter-spacing: 0.03em;
 }
 
+.clients{
+    padding-top: 94px;
+    
+}
+
 .bottom{
     background-color: var(--dark-bg-color);
     padding-top: 60px;
